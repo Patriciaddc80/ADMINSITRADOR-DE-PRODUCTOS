@@ -1,0 +1,91 @@
+.input-style {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: border-color 0.3s ease;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.input-style:focus {
+  border-color: #3490dc;
+}
+
+/* Estilos para los botones */
+
+.bg-red-500,
+.bg-red-600:hover {
+  background-color: #ef4444;
+}
+
+.bg-purple-500,
+.bg-purple-700:hover {
+  background-color: #8b5cf6;
+}
+
+#add-btn {
+  width: auto;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+}
+
+/* Estilos para pantallas medianas y grandes */
+@media (min-width: 641px) {
+  #container {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  #container header img {
+    width: 100%;
+  }
+
+  #container header h1 {
+    font-size: 2.5rem;
+  }
+
+  #input-container,
+  #update-container {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  #input-container button,
+  #update-container button {
+    margin-top: 0.5rem;
+  }
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 640px) {
+  #container {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  #container header img {
+    width: 100%;
+  }
+
+  #container header h1 {
+    font-size: 2rem;
+  }
+
+  #input-container,
+  #update-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  #input-container button,
+  #update-container button {
+    width: 100%;
+  }
+}

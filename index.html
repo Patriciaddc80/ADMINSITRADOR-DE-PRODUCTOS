@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>ADMINISTRADOR DE PRODUCTOS</title>
+</head>
+
+<body class="bg-gray-100 w-full">
+    <div id="container" class="max-w-screen-2xl mx-auto text-center">
+        <header class="relative">
+            <h1 class="text-5xl mb-4 font-bold text-green-500">ADMINISTRADOR DE PRODUCTOS</h1>
+        </header>
+        <img src="./img/mobile_2.jpg" alt="Administrador de productos" class="mx-auto sm:w-1/3">
+
+        <main class="bg-gray-100 p-4">
+            <section id="input-container" class="grid grid-cols-5 gap-4 mt-2">
+                <div class="col-span-4 flex flex-col sm:flex-row sm:items-center">
+                    <input type="text" id="id-input" placeholder="ID" class="input-style sm:w-24 mr-2 mb-2 sm:mb-0">
+                    <input type="text" id="name-input" placeholder="Nombre del producto"
+                        class="input-style flex-grow mr-2 mb-2 sm:mb-0">
+                    <input type="number" id="price-input" placeholder="Precio"
+                        class="input-style w-24 mr-2 mb-2 sm:mb-0">
+                    <input type="text" id="brand-input" placeholder="Marca"
+                        class="input-style flex-grow mr-2 mb-2 sm:mb-0">
+                    <button id="add-btn" class="px-2 py-2 text-sm bg-red-500 text-white rounded hover:bg-red-600">
+                        <span class="flex items-center">
+                            <i class="fas fa-plus-circle mr-2"></i>Agregar
+                        </span>
+                    </button>
+                </div>
+            </section>
+
+            <section id="update-container" class="grid grid-cols-5 gap-4 mt-2">
+                <div class="col-span-4 flex flex-col sm:flex-row sm:items-center">
+                    <input id="update-id" placeholder="ID" class="input-style sm:w-24 mr-2 mb-2 sm:mb-0">
+                    <input type="text" id="update-name-input" placeholder="Nombre del producto"
+                        class="input-style flex-grow mr-2 mb-2 sm:mb-0">
+                    <input type="number" id="update-price-input" placeholder="Precio"
+                        class="input-style w-24 mr-2 mb-2 sm:mb-0">
+                    <input type="text" id="update-brand-input" placeholder="Marca"
+                        class="input-style flex-grow mr-2 mb-2 sm:mb-0">
+                    <div id="update-buttons" class="flex items-center space-x-2">
+                        <button id="update-btn"
+                            class="px-2 py-2 text-sm bg-purple-500 text-white rounded hover:bg-purple-700">
+                            <span class="flex items-center">
+                                <i class="fas fa-pencil-alt mr-2"></i>Actualizar
+                            </span>
+                        </button>
+                        <button id="cancel-btn"
+                            class="px-2 py-2 text-sm bg-red-500 text-white rounded hover:bg-red-600">
+                            <span class="flex items-center">
+                                <i class="fas fa-times mr-2"></i>Eliminar
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="flex justify-center mt-2">
+                <div class="w-full ">
+
+                    <div class="flex bg-green-500 text-white w-full">
+                        <div class="flex-1 px-4 py-2">ID</div>
+                        <div class="flex-1 px-4 py-2">Nombre</div>
+                        <div class="flex-1 px-4 py-2">Precio</div>
+                        <div class="flex-1 px-4 py-2">Marca</div>
+                        <div class="flex-1 px-4 py-2">Acciones</div>
+                    </div>
+                    <div id="answer-body"></div>
+
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="text-center bg-gray-800 text-white py-4 mt-2 w-full">
+            <div class=" mx-auto  sm:grid-cols-2 ">
+                <div class="bg-gray-500 p-4 rounded-md">
+                    <h2 class="text-lg font-semibold mb-2">ENLACES UTILIES</h2>
+                    <p class="text-sm bottom-36">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati,
+                        itaque
+                        ducimus iusto odit sunt quas error voluptatem alias nemo, a deleniti sed eos, eius hic incidunt
+                        perferendis assumenda adipisci tenetur.</p>
+                </div>
+
+            </div>
+            <div class="mt-10">
+
+                <p class="text-base my-10">Hecho con <span class="text-red-500">&hearts;</span> por PATRICIA DIAZ.</p>
+
+                <p class="text-sm ">Encuéntranos en nuestras redes sociales
+                    <a href="https://twitter.com/" class="text-blue-500 hover:underline">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://es-es.facebook.com/" class="text-blue-500 hover:underline">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/" class="text-blue-500 hover:underline">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <hr>
+                </p>
+                <p class="text-sm my-2">© 2024 Administrador de Productos. Todos los derechos reservados.</p>
+            </div>
+        </footer>
+
+        <!-- me falta crear el target blanck para abrir los enlaces a redes sociales en otra ventana-->
+        <!-- me falta crear otro input para pintar logos de la marca de los productos -->
+        <!-- crear span debajo de los inputs -->
+        <!-- botones a redes sociales mas grandes -->
+
+        <script src="index.js"></script>
+</body>
+
+</html>

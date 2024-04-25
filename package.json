@@ -1,0 +1,14 @@
+{
+  "name": "administrador-de-lista",
+  "version": "1.0.0",
+  "description": "ADMINISTRADOR DE LISTA ",
+  "main": "script.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "PATRICIA DIAZ",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
