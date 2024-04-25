@@ -1,4 +1,4 @@
-# ADMINSITRADOR-DE-PRODUCTOS
+# ADMINISTRADOR-DE-PRODUCTOS
 
 Este proyecto es un administrador de productos diseñado para gestionar información sobre el  mismo.
 Está desarrollado utilizando HTML, Tailwind CSS y Font Awesome para los iconos y la interfaz de usuario. 
