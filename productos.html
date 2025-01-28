@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tu Tienda</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue@3/dist/vue.global.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bg-[#5a3221] text-white font-sans">
+  <div id="app" class="min-h-screen flex flex-col">
+    <!-- Navegación -->
+    <nav class="flex items-center justify-between px-8 py-4 bg-[#3e2217]">
+      <div class="flex items-center gap-4">
+        <img src="https://img.freepik.com/vector-gratis/logotipo-tienda-mascotas-colorido_23-2149701680.jpg" alt="Logo"
+          class="rounded-full w-10 h-10">
+        <ul class="flex gap-6">
+          <li><a href="#" class="text-white hover:text-gray-300">Inicio</a></li>
+          <li><a href="#" class="text-white hover:text-gray-300">Productos</a></li>
+          <li><a href="#" class="text-white hover:text-gray-300">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="flex items-center gap-4">
+        <a href="#" class="text-[#ff6d3b] hover:text-white"><i class="fab fa-instagram"></i></a>
+        <button class="bg-[#ff6d3b] text-white px-4 py-2 rounded-md hover:bg-[#e85c2a]">
+          ¡Compra Ahora!
+          <i class="fas fa-shopping-cart"></i>
+        </button>
+      </div>
+    </nav>
+    <!-- Contenido Principal -->
+    <main class="flex flex-col items-center justify-center flex-grow text-center px-8">
+      <h1 class="text-4xl md:text-6xl font-bold mb-4">Bienvenido a Tu Tienda</h1>
+      <div class="flex gap-4 mb-6">
+        <button class="px-4 py-2 bg-[#3e2217] text-white rounded-full shadow hover:bg-[#6f4933]">
+          Perros Felices
+        </button>
+        <button class="px-4 py-2 bg-[#3e2217] text-white rounded-full shadow hover:bg-[#6f4933]">
+          Dueños Satisfechos
+        </button>
+      </div>
+      <p class="text-lg mb-6">Todo lo que tu perro necesita, ¡y más!</p>
+      <button class="px-6 py-3 bg-white text-[#5a3221] rounded-lg shadow hover:bg-gray-100">
+        Explora Ahora
+      </button>
+    </main>
+    <!-- Imágenes principales -->
+    <div class="flex gap-6 justify-center mt-8">
+      <img src="https://img.freepik.com/foto-gratis/perro-juguete-peluche-jardin_1150-21048.jpg" alt="Naturaleza"
+        class="rounded-full shadow-lg">
+      <img src="https://img.freepik.com/foto-gratis/retrato-cachorro-feliz-sonrisa-perro-lindo_169016-38588.jpg"
+        alt="Perro feliz" class="rounded-full shadow-lg">
+    </div>
+  </div>
+
+  <!-- Sección de productos -->
+  <section class="bg-[#d9c6b5] py-12">
+    <h2 class="text-center text-3xl font-bold text-[#5a3221] mb-8">Descubre Nuestras Maravillas</h2>
+    <div class="grid grid-cols-1 md:grid-cols-5 gap-6 px-6">
+      <!-- Tarjeta 1 -->
+      <div class="rounded-lg bg-[#5a3221] text-white shadow-lg overflow-hidden">
+        <img src="https://img.freepik.com/foto-gratis/juguetes-interactivos-perro_1150-21049.jpg"
+          alt="Juguetes Interactivos" class="w-full">
+        <div class="p-4">
+          <p class="font-semibold">Juguetes Interactivos</p>
+        </div>
+      </div>
+      <!-- Tarjeta 2 -->
+      <div class="rounded-lg bg-[#5a3221] text-white shadow-lg overflow-hidden">
+        <img src="https://img.freepik.com/foto-gratis/comida-premium-perro_1150-20993.jpg" alt="Comida Premium"
+          class="w-full">
+        <div class="p-4">
+          <p class="font-semibold">Comida Premium</p>
+        </div>
+      </div>
+      <!-- Tarjeta 3 -->
+      <div class="rounded-lg bg-[#d9c6b5] text-[#5a3221] shadow-lg flex items-center justify-center">
+        <button class="bg-[#ff6d3b] text-white px-6 py-3 rounded-md hover:bg-[#e85c2a]">
+          ¡Compra Ahora!
+        </button>
+      </div>
+      <!-- Tarjeta 4 -->
+      <div class="rounded-lg bg-[#5a3221] text-white shadow-lg overflow-hidden">
+        <img src="https://img.freepik.com/foto-gratis/accesorios-perro-elegantes_1150-21030.jpg" alt="Accesorios Chic"
+          class="w-full">
+        <div class="p-4">
+          <p class="font-semibold">Accesorios Chic</p>
+        </div>
+      </div>
+      <!-- Tarjeta 5 -->
+      <div class="rounded-lg bg-[#5a3221] text-white shadow-lg overflow-hidden">
+        <img src="https://img.freepik.com/foto-gratis/ropa-divertida-perro_1150-20994.jpg" alt="Ropa Divertida"
+          class="w-full">
+        <div class="p-4">
+          <p class="font-semibold">Ropa Divertida</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Sección Clientes Felices -->
+  <section class="bg-[#5a3221] text-white py-12">
+    <div class="container mx-auto px-6">
+      <h2 class="text-center text-3xl font-bold mb-8">Clientes Felices</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div>
+          <img src="https://img.freepik.com/foto-gratis/cliente-feliz-con-mascota_1150-21016.jpg" alt="Clientes Felices"
+            class="rounded-lg shadow-lg">
+        </div>
+        <div class="flex flex-col justify-center">
+          <p class="text-lg leading-relaxed">
+            Nos sentimos orgullosos de ofrecer productos que hacen feliz a tu perro.
+            ¡Las sonrisas de nuestros clientes de cuatro patas lo dicen todo!
+          </p>
+          <button class="mt-6 bg-[#ff6d3b] text-white px-6 py-3 rounded-md hover:bg-[#e85c2a]"
+            onclick="alert('¡Gracias por tu interés!')">
+            Descubre Más
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <footer>
+    <div class="container mx-auto px-6 py-8 text-center">
+      <img src="https://via.placeholder.com/200" alt="Logo" class="w-16 h-16">
+      <p class="text-sm text-white-100">
+        Diseñado y desarrollado por <a href="#" class="text-white-100 hover:text-white">Patricia Diaz </a>
+      </p>
+      <p class="text-sm text-white-100">
+        <i class="fa fa-heart text-red-600 "></i> Creado con amor y pasión por los animales y el deporte.
+      </p>
+      <a href="#" class="text-sm text-white-100 hover:text-white">
+        Política de Cookies
+      </a>
+      <a href="#" class="text-sm text-white-100 hover:text-white">
+        Política de Privacidad
+      </a>
+      <a href="#" class="text-sm text-white-100 hover:text-white">
+        Ayuda
+      </a>
+      <a href="#" class="text-sm text-white-100 hover:text-white">
+        Cambiar idioma
+      </a>
+    </div>
+  </footer>
+
+
+  <script>
+    const { createApp } = Vue;
+    createApp({
+      data() {
+        return {};
+      },
+      methods: {},
+    }).mount("#app");
+  </script>
+</body>
+
+</html>
