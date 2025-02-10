@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,11 +8,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <title>Product Manager</title>
 </head>
+
 <body class="bg-gray-100 w-full">
     <div id="container" class="container mx-auto px-4 py-8">
         <header class="text-center mb-8">
             <h2 class="text-3xl mb-2 font-bold text-green-500">PRODUCT MANAGER</h2>
-            <h3 class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo modi eos esse quos voluptate.</h3>
+            <h3 class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo modi eos esse quos
+                voluptate.</h3>
         </header>
 
         <main class="max-w-4xl mx-auto bg-white rounded-lg shadow-lg p-6">
@@ -32,19 +35,11 @@
                 <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
                     <button id="add-btn"
                         class="w-full sm:w-auto flex items-center justify-center px-4 py-2 bg-green-500 hover:bg-green-600 text-white font-semibold rounded-lg transition-all duration-300 ease-in-out shadow-md hover:shadow-lg">
-                        <i class="fas fa-plus-circle mr-2"></i>Add
-                    </button>
-                    <button id="update-btn"
-                        class="w-full sm:w-auto flex items-center justify-center px-4 py-2 bg-purple-500 hover:bg-purple-600 text-white font-semibold rounded-lg transition-all duration-300 ease-in-out shadow-md hover:shadow-lg hidden">
-                        <i class="fas fa-pencil-alt mr-2"></i>Update
-                    </button>
-                    <button id="cancel-btn"
-                        class="w-full sm:w-auto flex items-center justify-center px-4 py-2 bg-gray-500 hover:bg-gray-600 text-white font-semibold rounded-lg transition-all duration-300 ease-in-out shadow-md hover:shadow-lg hidden">
-                        <i class="fas fa-times mr-2"></i>Cancel
+                        <i class="fas fa-plus-circle mr-2"></i>ADD
                     </button>
                     <button id="delete-all-btn"
                         class="w-full sm:w-auto flex items-center justify-center px-4 py-2 bg-red-500 hover:bg-red-600 text-white font-semibold rounded-lg transition-all duration-300 ease-in-out shadow-md hover:shadow-lg">
-                        <i class="fas fa-trash mr-2"></i>Remove
+                        <i class="fas fa-trash mr-2"></i>REMOVE
                     </button>
                 </div>
             </section>
@@ -53,12 +48,34 @@
                 <div class="min-w-full rounded-lg overflow-hidden">
                     <div class="grid grid-cols-4 bg-green-500 text-white font-semibold">
                         <div class="px-4 py-3">ID</div>
-                        <div class="px-4 py-3">Product</div>
-                        <div class="px-4 py-3">Price</div>
-                        <div class="px-4 py-3">Brand</div>
+                        <div class="px-4 py-3">NAME</div>
+                        <div class="px-4 py-3">PRICE</div>
+                        <div class="px-4 py-3">BRAND</div>
                     </div>
                     <div id="answer-body" class="bg-white">
-                        <!-- El contenido de la tabla se llenará dinámicamente -->
+                        <!-- Example row -->
+                        <div class="border-b border-gray-200 p-4">
+                            <div class="grid grid-cols-1 sm:grid-cols-4 gap-4">
+                                <input type="text" value="5050"
+                                    class="w-full p-2 border rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent">
+                                <input type="text" value="Dog Food"
+                                    class="w-full p-2 border rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent">
+                                <input type="text" value="€20.00"
+                                    class="w-full p-2 border rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent">
+                                <input type="text" value="Brand A"
+                                    class="w-full p-2 border rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent">
+                            </div>
+                            <div class="flex justify-center gap-2 mt-4">
+                                <button
+                                    class="edit-btn flex items-center justify-center w-24 px-3 py-2 text-sm bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors">
+                                    <i class="fas fa-edit mr-2"></i>EDIT
+                                </button>
+                                <button
+                                    class="delete-btn flex items-center justify-center w-24 px-3 py-2 text-sm bg-red-500 text-white rounded hover:bg-red-600 transition-colors">
+                                    <i class="fas fa-trash-alt mr-2"></i>REMOVE
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -67,7 +84,7 @@
         <footer class="mt-8 bg-white rounded-lg shadow-lg p-6">
             <div class="max-w-4xl mx-auto text-center">
                 <h2 class="text-lg text-gray-700 mb-4">
-                    This project, 'Product Manager', was created using various modern web technologies...
+                    This project, 'Product Manager', was created using modern web technologies.
                 </h2>
                 <p class="text-sm text-green-600 font-semibold animate-pulse mb-2">
                     Made with ♥ by Patricia Díaz.
