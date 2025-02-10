@@ -5,7 +5,7 @@
 ###  🚀 Demo. 
 🔗 [Administrador de Productos](https://adminsitrador-de-productos.vercel.app/)  
 
-## Este proyecto, **Gestión de inventario**, es una aplicación web diseñada para gestionar los productos de una tienda. Permite a los usuarios agregar, actualizar y eliminar productos, así como ver los detalles de los mismos en una interfaz dinámica y fácil de usar.
+## Este proyecto, **Gestión de inventario**, es una aplicación web diseñada para gestionar los artículos de una tienda. Permite a los usuarios agregar, actualizar y eliminar productos, así como ver los detalles de los mismos en una interfaz dinámica y fácil de usar.
 
 ### 📌 Caracteristicas de uso.
 ✔️ **Agregar productos**: ingrese detalles del producto, como ID, nombre, precio y marca.
