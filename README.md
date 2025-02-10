@@ -6,7 +6,7 @@ This project, **Product Manager**, is a web application designed to manage produ
 
 ## Features
 
-[## Product manager](image-1.png)
+image-1.png
 
 - **Add Products**: Input product details such as ID, name, price, and brand.
 - **Update Products**: Modify existing product information.
