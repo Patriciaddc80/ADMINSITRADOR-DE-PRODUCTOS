@@ -4,9 +4,9 @@
 This project, **Product Manager**, is a web application designed to manage products for a pet store. It allows users to add, update, and remove products, as well as view product details in a dynamic and user-friendly interface.
 
 ## Features
-![Product Manager](image.png)
+![Product Manager](![Product manager](image-1.png))
 
-
+![alt text](image-2.png)
 
 - **Add Products**: Input product details such as ID, name, price, and brand.
 - **Update Products**: Modify existing product information.
