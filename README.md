@@ -1,12 +1,12 @@
 # PRODUCT MANAGER 
+
 ## Product Manager for shopping cart
 
 This project, **Product Manager**, is a web application designed to manage products for a pet store. It allows users to add, update, and remove products, as well as view product details in a dynamic and user-friendly interface.
 
 ## Features
-![Product Manager](![Product manager](image-1.png))
 
-![alt text](image-2.png)
+[## Product manager](image-1.png)
 
 - **Add Products**: Input product details such as ID, name, price, and brand.
 - **Update Products**: Modify existing product information.
@@ -24,8 +24,9 @@ This project, **Product Manager**, is a web application designed to manage produ
 ## Installation
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/product-manager.git
+
+ ```bash
+git clone https://github.com/your-username/product-manager.git
 Navigate to the project directory:
 bash
 Copy Code
