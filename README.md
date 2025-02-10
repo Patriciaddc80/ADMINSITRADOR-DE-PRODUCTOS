@@ -1,25 +1,34 @@
-# PRODUCT MANAGER 
+# 🛍️Gestión de productos.
 
-## Product Manager for shopping cart
+## Gestión de inventario.
+[![Deplegado en Vercel](https://img.shields.io/badge/Vercel-Deployed-black)](https://adminsitrador-de-productos.vercel.app/) 
 
-This project, **Product Manager**, is a web application designed to manage products for a pet store. It allows users to add, update, and remove products, as well as view product details in a dynamic and user-friendly interface.
+## Gestor de inventario que permite administrar de manera eficiente y rápida los articulos de una tienda, fácil y sencillo.
 
-## Features
+###  🚀 Demo. 
+🔗 [Administrador de Productos](https://adminsitrador-de-productos.vercel.app/)  
 
-- **Add Products**: Input product details such as ID, name, price, and brand.
-- **Update Products**: Modify existing product information.
-- **Remove Products**: Delete individual products or clear all products.
-- **Dynamic Table**: View all products in a responsive table format.
-- **Modern UI**: Built with Tailwind CSS for a clean and responsive design.
+Este proyecto, **Gestión de inventario**, es una aplicación web diseñada para gestionar los productos de una tienda. Permite a los usuarios agregar, actualizar y eliminar productos, así como ver los detalles de los mismos en una interfaz dinámica y fácil de usar.
+
+### 📌 Caracteristicas de uso.
+✔️ **Agregar productos**: ingrese detalles del producto, como ID, nombre, precio y marca.
+
+✔️ **Actualizar productos**: modifique la información del producto existente.
+
+✔️ **Eliminar productos**: elimine productos individuales o borre todos los productos.
+
+✔️ **Tabla dinámica**: vea todos los productos en un formato de tabla adaptable.
+
+✔️ **IU moderna**: creada con Tailwind CSS para un diseño limpio y adaptable.
 
 ![Product manager](image-3.png)
 
-## Technologies Used
+### 🛠️ Tecnologías Utilizadas
 
-- **HTML5**: For structuring the web page.
-- **CSS3**: Styled with [Tailwind CSS](https://tailwindcss.com/).
-- **JavaScript**: For dynamic functionality and interactivity.
-- **Font Awesome**: Icons for buttons and actions.
+- **HTML5**: Para estructurar la página web.
+- **CSS3**:  Diseñado con [Tailwind CSS](https://tailwindcss.com/).
+- **JavaScript**: Para funcionalidad dinámica e interactividad.
+- **Font Awesome**: Iconos para botones y acciones.
 
 ## Instalación
 1. Clona este repositorio:
@@ -27,11 +36,6 @@ This project, **Product Manager**, is a web application designed to manage produ
    git clone https://github.com/tu-usuario/product-manager.git
    ```
 2. Abre el archivo `index.html` en tu navegador.
-
-## Uso
-1. Ingresa los datos del producto en los campos correspondientes.
-2. Haz clic en **Add** para agregar el producto.
-3. Usa los botones **Edit** y **Remove** para gestionar los productos.
 
 ## Créditos
 Creado con ♥ por Patricia Díaz.
