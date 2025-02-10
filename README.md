@@ -3,12 +3,10 @@
 ## Gestión de inventario.
 [![Deplegado en Vercel](https://img.shields.io/badge/Vercel-Deployed-black)](https://adminsitrador-de-productos.vercel.app/) 
 
-## Gestor de inventario que permite administrar de manera eficiente y rápida los articulos de una tienda, fácil y sencillo.
-
 ###  🚀 Demo. 
 🔗 [Administrador de Productos](https://adminsitrador-de-productos.vercel.app/)  
 
-Este proyecto, **Gestión de inventario**, es una aplicación web diseñada para gestionar los productos de una tienda. Permite a los usuarios agregar, actualizar y eliminar productos, así como ver los detalles de los mismos en una interfaz dinámica y fácil de usar.
+## Este proyecto, **Gestión de inventario**, es una aplicación web diseñada para gestionar los productos de una tienda. Permite a los usuarios agregar, actualizar y eliminar productos, así como ver los detalles de los mismos en una interfaz dinámica y fácil de usar.
 
 ### 📌 Caracteristicas de uso.
 ✔️ **Agregar productos**: ingrese detalles del producto, como ID, nombre, precio y marca.
