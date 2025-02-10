@@ -1,6 +1,5 @@
 # 🛍️Gestión de productos.
 
-## Gestión de inventario.
 [![Deplegado en Vercel](https://img.shields.io/badge/Vercel-Deployed-black)](https://adminsitrador-de-productos.vercel.app/) 
 
 ###  🚀 Demo. 
