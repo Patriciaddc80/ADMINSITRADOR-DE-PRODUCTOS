@@ -24,8 +24,7 @@ This project, **Product Manager**, is a web application designed to manage produ
 ## Installation
 
 1. Clone the repository:
-
- ```bash
+  ```bash
 git clone https://github.com/your-username/product-manager.git
 Navigate to the project directory:
 bash
